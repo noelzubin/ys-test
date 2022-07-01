@@ -1,0 +1,65 @@
+.todo
+    display: flex
+    background: white
+    min-height: 100vh
+    min-width: 100vw
+
+.sidebar
+    position: fixed
+    z-index: 1
+    background: white
+    height: 100vh
+    box-sizing: border-box
+    border-right: 1.5px solid #F0F0F0
+    width: 310px
+    flex-shrink: 0
+    padding: 2rem
+    .btm
+        position: absolute
+        bottom: 20px
+
+    ul
+        padding-left: 0
+        li
+            width: 100%
+            margin: 2rem 0
+            display: flex
+            list-style: none
+            font-size: 17px
+            line-height: 101.1%
+            color: #9A9A9A
+            &:nth-child(3)
+                color: #212121
+
+            img
+                margin-right: 1rem
+
+.logo
+    width: 73px
+    font-size: 20px
+    color: #161616
+
+.main
+    margin-left: 350px
+    box-sizing: border-box
+
+.content
+    \:global .react-trello-board
+        background: white
+    \:global .react-trello-lane
+        background: #F5F9F9
+    \:global .react-trello-card
+        header
+            border-bottom: none
+            span
+                font-style: normal
+                font-size: 14px
+                font-weight: normal
+.addBtn
+    color: #329C89
+    background: #ECF3F3
+    display: flex
+    justify-content: center
+    align-items: center
+    font-size: 1.5rem
+    border-radius: 8px

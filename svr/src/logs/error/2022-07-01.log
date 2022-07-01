@@ -1,0 +1,336 @@
+2022-07-01 11:39:48 error: [POST] /signup >> StatusCode:: 400, Message:: property name should not exist
+2022-07-01 11:44:28 error: [POST] /signup >> StatusCode:: 409, Message:: You're email a@gmail.com already exists
+2022-07-01 13:25:13 error: uncaughtException: Cannot find module '@routes/static.route'
+Require stack:
+- /home/lenovo/mine/youshd/svr/src/server.ts
+Error: Cannot find module '@routes/static.route'
+Require stack:
+- /home/lenovo/mine/youshd/svr/src/server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:924:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (/home/lenovo/mine/youshd/svr/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._resolveFilename (/home/lenovo/mine/youshd/svr/node_modules/tsconfig-paths/src/register.ts:90:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:769:27)
+    at Module.require (node:internal/modules/cjs/loader:996:19)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (/home/lenovo/mine/youshd/svr/src/server.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1092:14)
+    at Module.m._compile (/home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:1597:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1121:10)
+2022-07-01 13:25:19 error: uncaughtException: Cannot find module '@routes/static.route'
+Require stack:
+- /home/lenovo/mine/youshd/svr/src/server.ts
+Error: Cannot find module '@routes/static.route'
+Require stack:
+- /home/lenovo/mine/youshd/svr/src/server.ts
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:924:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue (/home/lenovo/mine/youshd/svr/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+    at Function.Module._resolveFilename (/home/lenovo/mine/youshd/svr/node_modules/tsconfig-paths/src/register.ts:90:36)
+    at Function.Module._load (node:internal/modules/cjs/loader:769:27)
+    at Module.require (node:internal/modules/cjs/loader:996:19)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (/home/lenovo/mine/youshd/svr/src/server.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1092:14)
+    at Module.m._compile (/home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:1597:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1121:10)
+2022-07-01 13:26:36 error: uncaughtException: express is not defined
+ReferenceError: express is not defined
+    at IndexRoute.initializeRoutes (/home/lenovo/mine/youshd/svr/src/routes/static.route.ts:15:37)
+    at new IndexRoute (/home/lenovo/mine/youshd/svr/src/routes/static.route.ts:11:10)
+    at Object.<anonymous> (/home/lenovo/mine/youshd/svr/src/server.ts:10:75)
+    at Module._compile (node:internal/modules/cjs/loader:1092:14)
+    at Module.m._compile (/home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:1597:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1121:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:1600:12)
+    at Module.load (node:internal/modules/cjs/loader:972:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:76:12)
+2022-07-01 13:26:50 error: uncaughtException: The "id" argument must be of type string. Received undefined
+TypeError [ERR_INVALID_ARG_TYPE]: The "id" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:329:5)
+    at validateString (node:internal/validators:129:11)
+    at Module.require (node:internal/modules/cjs/loader:989:3)
+    at require (node:internal/modules/cjs/helpers:92:18)
+    at Object.<anonymous> (/home/lenovo/mine/youshd/svr/src/routes/static.route.ts:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1092:14)
+    at Module.m._compile (/home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:1597:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1121:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:1600:12)
+    at Module.load (node:internal/modules/cjs/loader:972:32)
+2022-07-01 13:32:08 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m24[0m:[93m55[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m24[0m const generateRandom = (min = 0, max = 100) => number {
+[7m  [0m [91m                                                      ~[0m
+[96msrc/utils/util.ts[0m:[93m27[0m:[93m7[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m27[0m   let difference = max - min;
+[7m  [0m [91m      ~~~~~~~~~~[0m
+[96msrc/utils/util.ts[0m:[93m27[0m:[93m29[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m27[0m   let difference = max - min;
+[7m  [0m [91m                            ~[0m
+[96msrc/utils/util.ts[0m:[93m39[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m39[0m }
+[7m  [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m24[0m:[93m55[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m24[0m const generateRandom = (min = 0, max = 100) => number {
+[7m  [0m [91m                                                      ~[0m
+[96msrc/utils/util.ts[0m:[93m27[0m:[93m7[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m27[0m   let difference = max - min;
+[7m  [0m [91m      ~~~~~~~~~~[0m
+[96msrc/utils/util.ts[0m:[93m27[0m:[93m29[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m27[0m   let difference = max - min;
+[7m  [0m [91m                            ~[0m
+[96msrc/utils/util.ts[0m:[93m39[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m39[0m }
+[7m  [0m [91m~[0m
+
+    at createTSError (/home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:843:12)
+    at reportTSError (/home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:847:19)
+    at /home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:1357:34
+    at Object.compile (/home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:1436:13)
+    at Module.m._compile (/home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:1596:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1121:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:1600:12)
+    at Module.load (node:internal/modules/cjs/loader:972:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+    at Module.require (node:internal/modules/cjs/loader:996:19)
+2022-07-01 13:32:14 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m24[0m:[93m55[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m24[0m const generateRandom = (min = 0, max = 100) => Number {
+[7m  [0m [91m                                                      ~[0m
+[96msrc/utils/util.ts[0m:[93m27[0m:[93m7[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m27[0m   let difference = max - min;
+[7m  [0m [91m      ~~~~~~~~~~[0m
+[96msrc/utils/util.ts[0m:[93m27[0m:[93m29[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m27[0m   let difference = max - min;
+[7m  [0m [91m                            ~[0m
+[96msrc/utils/util.ts[0m:[93m39[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m39[0m }
+[7m  [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/utils/util.ts[0m:[93m24[0m:[93m55[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m24[0m const generateRandom = (min = 0, max = 100) => Number {
+[7m  [0m [91m                                                      ~[0m
+[96msrc/utils/util.ts[0m:[93m27[0m:[93m7[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m27[0m   let difference = max - min;
+[7m  [0m [91m      ~~~~~~~~~~[0m
+[96msrc/utils/util.ts[0m:[93m27[0m:[93m29[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m27[0m   let difference = max - min;
+[7m  [0m [91m                            ~[0m
+[96msrc/utils/util.ts[0m:[93m39[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m39[0m }
+[7m  [0m [91m~[0m
+
+    at createTSError (/home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:843:12)
+    at reportTSError (/home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:847:19)
+    at /home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:1357:34
+    at Object.compile (/home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:1436:13)
+    at Module.m._compile (/home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:1596:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1121:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:1600:12)
+    at Module.load (node:internal/modules/cjs/loader:972:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+    at Module.require (node:internal/modules/cjs/loader:996:19)
+2022-07-01 13:33:57 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m22[0m:[93m104[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m22[0m     const createUserData: User = await userModel.create({ ...userData, password: hashedPassword, img:  });
+[7m  [0m [91m                                                                                                       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m22[0m:[93m104[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m22[0m     const createUserData: User = await userModel.create({ ...userData, password: hashedPassword, img:  });
+[7m  [0m [91m                                                                                                       ~[0m
+
+    at createTSError (/home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:843:12)
+    at reportTSError (/home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:847:19)
+    at /home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:1357:34
+    at Object.compile (/home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:1436:13)
+    at Module.m._compile (/home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:1596:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1121:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:1600:12)
+    at Module.load (node:internal/modules/cjs/loader:972:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+    at Module.require (node:internal/modules/cjs/loader:996:19)
+2022-07-01 13:34:52 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m22[0m:[93m104[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m22[0m     const createUserData: User = await userModel.create({ ...userData, password: hashedPassword, img:  });
+[7m  [0m [91m                                                                                                       ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m22[0m:[93m104[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m22[0m     const createUserData: User = await userModel.create({ ...userData, password: hashedPassword, img:  });
+[7m  [0m [91m                                                                                                       ~[0m
+
+    at createTSError (/home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:843:12)
+    at reportTSError (/home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:847:19)
+    at /home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:1357:34
+    at Object.compile (/home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:1436:13)
+    at Module.m._compile (/home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:1596:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1121:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:1600:12)
+    at Module.load (node:internal/modules/cjs/loader:972:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+    at Module.require (node:internal/modules/cjs/loader:996:19)
+2022-07-01 13:40:30 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (/home/lenovo/mine/youshd/svr/node_modules/express/lib/router/route.js:211:15)
+    at Function.proto.<computed> [as get] (/home/lenovo/mine/youshd/svr/node_modules/express/lib/router/index.js:521:19)
+    at UsersRoute.initializeRoutes (/home/lenovo/mine/youshd/svr/src/routes/users.route.ts:18:17)
+    at new UsersRoute (/home/lenovo/mine/youshd/svr/src/routes/users.route.ts:13:10)
+    at Object.<anonymous> (/home/lenovo/mine/youshd/svr/src/server.ts:10:40)
+    at Module._compile (node:internal/modules/cjs/loader:1092:14)
+    at Module.m._compile (/home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:1597:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1121:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/lenovo/mine/youshd/svr/node_modules/ts-node/src/index.ts:1600:12)
+    at Module.load (node:internal/modules/cjs/loader:972:32)
+2022-07-01 13:45:37 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 13:46:18 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 13:47:54 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 13:50:34 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 13:50:46 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 13:51:39 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 13:55:53 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 13:55:56 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 13:55:58 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 13:56:02 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 13:57:49 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 13:57:50 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 13:57:57 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 13:58:34 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 14:00:34 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 14:01:34 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 14:01:40 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 14:02:01 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 14:02:15 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 14:02:18 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 14:02:22 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 14:02:48 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 14:02:50 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 15:59:06 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 15:59:07 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 15:59:09 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 15:59:27 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 15:59:36 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 15:59:39 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:00:16 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:05:03 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:05:20 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:08:02 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:09:00 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:09:30 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:09:33 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:09:35 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:09:47 error: [POST] /login >> StatusCode:: 409, Message:: You're email d@gmail.com not found
+2022-07-01 16:09:52 error: [POST] /login >> StatusCode:: 409, Message:: You're password not matching
+2022-07-01 16:11:00 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:11:06 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:11:09 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:11:29 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:11:44 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:12:05 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:12:10 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:12:14 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:12:25 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:12:28 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:12:39 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:12:47 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:12:51 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:12:57 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:13:01 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:13:06 error: [POST] /login >> StatusCode:: 409, Message:: You're password not matching
+2022-07-01 16:13:09 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email
+2022-07-01 16:13:13 error: [POST] /login >> StatusCode:: 409, Message:: You're password not matching
+2022-07-01 16:19:43 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:19:51 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:19:54 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:21:35 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:24:06 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:25:04 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:25:09 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:25:11 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:26:32 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:26:34 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:26:38 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:26:45 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:27:24 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:27:40 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:27:46 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:27:53 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:28:05 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:29:10 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:29:10 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:29:14 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:31:09 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:31:09 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:31:21 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:31:21 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:31:24 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:31:24 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:31:33 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:31:33 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:31:36 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:31:36 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:31:38 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:31:38 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:32:11 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:32:11 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:32:25 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:32:25 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:33:06 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:33:06 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:33:12 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:33:12 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:34:12 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:34:12 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:34:23 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:34:23 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:34:33 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:34:33 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:34:35 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:34:35 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:34:37 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:34:37 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:34:46 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:34:46 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:35:14 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:35:14 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:35:15 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:35:15 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:35:28 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:35:32 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:35:48 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:35:50 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:35:59 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:36:05 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:36:21 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:36:46 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:37:05 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:38:24 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:40:09 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:43:14 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:48:06 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:50:42 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:51:38 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 16:53:20 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing
+2022-07-01 17:41:48 error: [GET] /users/me >> StatusCode:: 404, Message:: Authentication token missing

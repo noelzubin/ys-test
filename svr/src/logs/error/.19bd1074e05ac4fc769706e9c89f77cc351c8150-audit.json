@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/home/lenovo/mine/youshd/svr/src/logs/error/.19bd1074e05ac4fc769706e9c89f77cc351c8150-audit.json",
+    "files": [
+        {
+            "date": 1656576607977,
+            "name": "/home/lenovo/mine/youshd/svr/src/logs/error/2022-06-30.log",
+            "hash": "1cca59134490d8a56be2971555cd0bd3d82ace3a4ecc31644ade61eaa9be6ca8"
+        },
+        {
+            "date": 1656653693217,
+            "name": "/home/lenovo/mine/youshd/svr/src/logs/error/2022-07-01.log",
+            "hash": "07f055c38e21994621b1ce9dcbb75e84dea0c7c73324fc13a242c325f8f61874"
+        }
+    ],
+    "hashType": "sha256"
+}

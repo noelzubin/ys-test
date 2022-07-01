@@ -1,0 +1,34 @@
+2022-06-30 13:40:08 info: =================================
+2022-06-30 13:40:08 info: ======= ENV: development =======
+2022-06-30 13:40:08 info: 🚀 App listening on the port 3000
+2022-06-30 13:40:08 info: =================================
+2022-06-30 13:41:03 info: [0mGET / [32m200[0m 6.543 ms - 2[0m
+2022-06-30 13:41:06 info: [0mGET /api-docs [36m301[0m 5.025 ms - 183[0m
+2022-06-30 13:41:06 info: [0mGET /api-docs/ [32m200[0m 3.663 ms - -[0m
+2022-06-30 13:41:06 info: [0mGET /api-docs/swagger-ui-init.js [32m200[0m 1.269 ms - -[0m
+2022-06-30 13:41:07 info: [0mGET /api-docs/swagger-ui.css [32m200[0m 6.137 ms - -[0m
+2022-06-30 13:41:07 info: [0mGET /api-docs/swagger-ui-standalone-preset.js [32m200[0m 10.641 ms - -[0m
+2022-06-30 13:41:07 info: [0mGET /api-docs/swagger-ui-bundle.js [32m200[0m 9.029 ms - -[0m
+2022-06-30 13:41:07 info: [0mGET /api-docs/favicon-32x32.png [32m200[0m 0.666 ms - 628[0m
+2022-06-30 13:46:39 info: =================================
+2022-06-30 13:46:39 info: ======= ENV: development =======
+2022-06-30 13:46:39 info: 🚀 App listening on the port 8000
+2022-06-30 13:46:39 info: =================================
+2022-06-30 13:57:55 info: [0mOPTIONS /login [32m204[0m 1.965 ms - 0[0m
+2022-06-30 13:57:55 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2022-06-30 13:57:55 info: [0mPOST /login [33m400[0m 25.426 ms - 72[0m
+2022-06-30 13:58:33 info: [0mOPTIONS /login [32m204[0m 0.727 ms - 0[0m
+2022-06-30 13:58:33 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2022-06-30 13:58:33 info: [0mPOST /login [33m400[0m 6.431 ms - 72[0m
+2022-06-30 13:58:52 info: [0mOPTIONS /login [32m204[0m 0.341 ms - 0[0m
+2022-06-30 13:58:52 error: [POST] /login >> StatusCode:: 409, Message:: You're email one@gmail.com not found
+2022-06-30 13:58:52 info: [0mPOST /login [33m409[0m 16.494 ms - 50[0m
+2022-06-30 14:00:28 info: [0mOPTIONS /signup [32m204[0m 0.459 ms - 0[0m
+2022-06-30 14:00:28 info: [0mPOST /signup [32m201[0m 106.480 ms - 247[0m
+2022-06-30 14:01:06 info: [0mOPTIONS /signup [32m204[0m 0.161 ms - 0[0m
+2022-06-30 14:01:06 info: [0mPOST /signup [32m201[0m 62.604 ms - 244[0m
+2022-06-30 14:01:44 info: [0mOPTIONS /signup [32m204[0m 0.210 ms - 0[0m
+2022-06-30 14:01:44 error: [POST] /signup >> StatusCode:: 409, Message:: You're email a@gmail.com already exists
+2022-06-30 14:01:44 info: [0mPOST /signup [33m409[0m 10.429 ms - 53[0m
+2022-06-30 14:02:20 info: [0mOPTIONS /login [32m204[0m 0.299 ms - 0[0m
+2022-06-30 14:02:20 info: [0mPOST /login [32m200[0m 56.056 ms - 243[0m

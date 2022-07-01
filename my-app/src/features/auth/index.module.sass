@@ -1,0 +1,81 @@
+.auth
+    max-width: 75rem
+    margin: 4rem auto
+    display: flex
+
+.left
+    img
+        width: 100%
+
+.right
+    border: 2px solid rgba(26, 59, 88, 0.24)
+    border-radius: 65px
+    display: flex
+    width: 35rem
+    margin: 2rem
+    justify-content: start
+    align-items: start
+    padding: 2rem
+    flex-direction: column
+    form
+        display: flex
+        flex-direction: column
+        margin: 0 auto
+
+.headers
+    display: flex
+    gap: 1rem
+    color: rgba(26, 59, 88, 0.33)
+
+.active
+    color: #1A3B58
+    &:after
+        content: ""
+        display: block
+        height: .2rem
+        width: 1.2rem
+        background: #1A3B58
+        position: relative
+        left: 0.1rem
+
+.greet
+    margin-bottom: 2rem
+    h4, p
+        margin-top: 0
+        margin-bottom: 0
+    h4
+        font-size: 1.2rem
+        color: #1A3B58
+    p
+        font-size: .8rem
+        color: #999999
+
+.form
+    width: 100%
+    padding: 2rem
+    box-sizing: border-box
+    span
+        font-size: 0.8rem
+        color: red
+        margin-left: 0.5rem
+
+.input
+    background: white
+    border: 1px solid #CBDBEA
+    border-radius: 8px
+    padding: 1rem
+    margin: 0.5rem
+    &.error
+        border: 1px solid red
+
+.btn
+    font-family: 'Poppins'
+    font-size: 1rem
+    color: #FFFFFF
+    background: #329C89
+    padding: .8rem
+    margin: 0.5rem
+    border-radius: 8px
+    box-shadow: none
+    border: none
+    outline: none

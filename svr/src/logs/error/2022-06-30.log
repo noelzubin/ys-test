@@ -1,0 +1,4 @@
+2022-06-30 13:57:55 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2022-06-30 13:58:33 error: [POST] /login >> StatusCode:: 400, Message:: property username should not exist, email must be an email
+2022-06-30 13:58:52 error: [POST] /login >> StatusCode:: 409, Message:: You're email one@gmail.com not found
+2022-06-30 14:01:44 error: [POST] /signup >> StatusCode:: 409, Message:: You're email a@gmail.com already exists
